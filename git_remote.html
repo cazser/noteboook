@@ -9,7 +9,31 @@
 </head>
 
 <body>
+    <div>配置</div>
+    <ol>
+        <li>身份验证</li>
+        <li>ssh key验证</li>
+        <li>命令输入
+            <div>
+                <code>
+                    ssh-keygen -t rsa -b 4096 -C "你的任意邮箱地址"
 
+                </code>
+                <div>
+                    进入生成id_rsa和id_rsa.pub所在的目录
+                </div>
+                <div>
+                    打开github在settings>ssh key下填入id_rsa.pub的内容
+                </div>
+                <div>
+                    命令行输入 ssh -t git@github.com
+                </div>
+            </div>
+        </li>
+        <li>
+            git clone xx.git git push git pull
+        </li>
+    </ol>
 </body>
 
 </html>
