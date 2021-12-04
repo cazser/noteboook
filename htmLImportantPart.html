@@ -27,9 +27,46 @@
                     属性：
                     <ul>
                         <li>href:包含超链接指向的 URL 或 URL 片段。 URL 片段是哈希标记（#）前面的名称， 哈希标记指定当前文档中的内部目标位置（HTML 元素的 ID）。URL 不限于基于 Web （HTTP）的文档，也可以使用浏览器支持的任何协议。例如，在大多数浏览器中正常工 作的file:、ftp:和mailto：。
-
+                            <ul>
+                                <li>href取值：</li>
+                                <li>http://xxxx</li>
+                                <li>https://xxxx</li>
+                                <li>//baidu.com无协议路径</li>
+                                <li>相对路径a/b/c/d.html</li>
+                                <li>javascript伪协议:例如 href="javascript:alert(1);"</li>
+                                <li>id例如href="#xxx",跳动id为xxx的元素</li>
+                                <li>href="mailto:邮箱"</li>
+                                <li>href="tel:138xxxxxxxx"</li>
+                            </ul>
                         </li>
-                        <li>target:self|_blank|top|parent</li>
+
+
+                        <li>
+                            <ul>
+                                <li>
+                                    不要双击打开html文件，应该用npm或者yarn安装http-server或者其他方式安装精通服务器打开，因为双击打开是文件协议精通服务器是http或者https协议
+                                </li>
+                                <li>
+                                    安装yarn global add http-server 运行http-server . -c-1
+
+                                </li>
+                                <li>
+                                    命令行出现几个网站，在浏览器里输入在后面加上对应文件地址
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <li>target:self|_blank|top|parent
+                            <ul>
+                                <li> self当前窗口打开，默认</li>
+                                <li>_blank在空白页打开</li>
+                                <li>_parent父页面打开</li>
+                                <li>_top顶层页面打开
+
+                                </li>
+                            </ul>
+                        </li>
                         <li>rel</li>
                     </ul>
                 </div>
