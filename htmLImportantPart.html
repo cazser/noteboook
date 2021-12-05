@@ -11,7 +11,8 @@
 <body>
     <ul>
         <li>
-            <div>a标签
+            <details>
+                <summary>a标签</summary>
                 <span>a是anchor的缩写</span>
                 <div>用途
 
@@ -65,12 +66,78 @@
                                 <li>_top顶层页面打开
 
                                 </li>
+                                <li>
+                                    xxx如果有窗口叫xxx就在xxx打开如果没有新建一个窗口它的name叫xxx
+                                </li>
                             </ul>
                         </li>
                         <li>rel</li>
                     </ul>
                 </div>
-            </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>table标签</summary>
+                <ul>
+                    <li>
+                        <pre>
+                        table
+                        |_thead
+                        |_tbody
+                        |_tfoot
+                        </pre>
+                    </li>
+                    <li>
+                        <pre>
+                            tr
+                            |_th
+                        </pre>
+                        <pre>
+                            tr
+                            |_td
+                        </pre>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>相关样式</summary>
+                            <ul>
+                                <li>
+                                    table-layout:auto|fixed
+                                    <div>auto根据内容分配宽度</div>
+                                    <div>fixed尽量平均</div>
+                                </li>
+                                <li>
+                                    border-collapse: collapse;
+                                </li>
+                                <li>
+                                    border-spacing:0|100px;
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>img标签</summary>
+                <ul>
+                    <li>属性</li>
+                    <li>src图片路径</li>
+                    <li>alt图片加载失败后的替换路径</li>
+                    <li>事件onload</li>
+                    <li>事件onerror</li>
+                    <li>width,height只写一个另一个会自适应</li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>
+                    form标签
+                </summary>
+            </details>
         </li>
     </ul>
 </body>
